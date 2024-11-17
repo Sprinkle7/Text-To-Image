@@ -1,0 +1,26 @@
+# Core Libraries
+torch==2.0.1          # PyTorch (optimized for M1 if on Apple Silicon)
+torchvision==0.15.2   # Image utilities for PyTorch
+transformers==4.35.0  # Hugging Face Transformers library
+diffusers==0.18.0     # Hugging Face Diffusers for Stable Diffusion and similar models
+pillow==10.0.0        # Python Imaging Library for image manipulation
+
+# Dataset Management
+pandas==2.1.1         # For reading and managing captions in CSV format
+numpy==1.25.2         # For array manipulations, often required with PyTorch
+
+# Optimizations
+accelerate==0.23.0    # Hugging Face library for optimized training across devices
+torchmetrics==1.2.0   # For monitoring training metrics (optional)
+
+# Utility Libraries
+tqdm==4.67.0          # For progress bars during training
+scipy==1.11.3         # Required by some image processing functions
+
+# Development and Debugging
+ipython==8.16.1       # Interactive Python for debugging
+jupyterlab==4.0.5     # For running experiments in notebooks (optional)
+
+# Optional Visualization Tools
+matplotlib==3.8.0     # For plotting loss curves or visualizing results (optional)
+seaborn==0.13.0       # For enhanced visualizations (optional)
